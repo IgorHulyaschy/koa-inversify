@@ -1,0 +1,1 @@
+{"version":3,"file":"PrinterService.d.ts","sourceRoot":"","sources":["../../../../lib/example/src/printer/PrinterService.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,MAAM,EAAE,MAAM,WAAW,CAAA;AAElC,qBACa,cAAc;IACb,OAAO,CAAC,QAAQ,CAAC,MAAM;gBAAN,MAAM,EAAE,MAAM;IAC3C,QAAQ,IAAI,GAAG;CAIhB"}

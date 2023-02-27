@@ -1,0 +1,1 @@
+{"version":3,"file":"LoggerService.d.ts","sourceRoot":"","sources":["../../../../lib/example/src/logger/LoggerService.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,MAAM,IAAI,OAAO,EAAE,MAAM,iCAAiC,CAAA;AAEnE,qBACa,MAAO,YAAW,OAAO;IACpC,IAAI,CAAC,GAAG,GAAG,EAAE,GAAG,EAAE,GAAG,IAAI;CAG1B"}

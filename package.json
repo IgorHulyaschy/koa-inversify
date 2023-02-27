@@ -1,0 +1,33 @@
+{
+  "name": "koa-inversify",
+  "version": "1.0.0",
+  "description": "Decorators for http and module system like in nest",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc --sourceMap false --declaration",
+    "start:example": "node -r ts-node/register -r reflect-metadata ./lib/example/src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^12.0.0",
+    "inversify": "^6.0.1",
+    "koa": "^2.14.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.5",
+    "@types/koa__router": "^12.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "eslint": "^8.35.0",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^2.8.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}

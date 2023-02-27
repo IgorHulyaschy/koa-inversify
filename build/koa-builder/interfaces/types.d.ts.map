@@ -1,0 +1,1 @@
+{"version":3,"file":"types.d.ts","sourceRoot":"","sources":["../../../lib/koa-builder/interfaces/types.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,OAAO,EAAE,IAAI,EAAE,MAAM,KAAK,CAAA;AAEnC,UAAU,UAAW,SAAQ,OAAO;CAAG;AAEvC,UAAU,OAAQ,SAAQ,IAAI;CAAG;AAEjC,YAAY,EAAE,UAAU,IAAI,OAAO,EAAE,OAAO,IAAI,IAAI,EAAE,CAAA"}

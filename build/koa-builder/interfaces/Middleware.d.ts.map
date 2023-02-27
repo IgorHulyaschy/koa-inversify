@@ -1,0 +1,1 @@
+{"version":3,"file":"Middleware.d.ts","sourceRoot":"","sources":["../../../lib/koa-builder/interfaces/Middleware.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,OAAO,EAAE,IAAI,EAAE,MAAM,SAAS,CAAA;AAEvC,MAAM,WAAW,UAAU;IACzB,GAAG,EAAE,CAAC,GAAG,EAAE,OAAO,EAAE,IAAI,EAAE,IAAI,KAAK,OAAO,CAAC,GAAG,CAAC,CAAA;CAChD"}

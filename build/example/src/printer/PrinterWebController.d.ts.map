@@ -1,0 +1,1 @@
+{"version":3,"file":"PrinterWebController.d.ts","sourceRoot":"","sources":["../../../../lib/example/src/printer/PrinterWebController.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,OAAO,EAAE,MAAM,iCAAiC,CAAA;AACzD,OAAO,EAAE,cAAc,EAAE,MAAM,kBAAkB,CAAA;AAEjD,qBACa,oBAAoB;IACnB,OAAO,CAAC,QAAQ,CAAC,OAAO;gBAAP,OAAO,EAAE,cAAc;IAGpD,QAAQ,CAAC,GAAG,EAAE,OAAO,GAAG,IAAI;CAG7B"}

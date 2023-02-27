@@ -1,0 +1,1 @@
+{"version":3,"file":"ApplicationBuilder.d.ts","sourceRoot":"","sources":["../../lib/koa-builder/ApplicationBuilder.ts"],"names":[],"mappings":";AAAA,OAAO,MAAM,MAAM,aAAa,CAAA;AAOhC,OAAO,EAAE,aAAa,EAAE,MAAM,mBAAmB,CAAA;AAGjD,qBAAa,kBAAkB;IAC7B,oBAAoB,CAAC,GAAG,EAAE,aAAa,GAAG,MAAM,EAAE;CAsCnD"}
