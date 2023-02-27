@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-expressions */
 import 'reflect-metadata'
 import { injectable } from 'inversify'
 import Koa from 'koa'
@@ -9,9 +10,9 @@ import { Logger } from './interfaces'
 export abstract class KoaApplication extends Koa {
   private readonly applicationBuilder = new ApplicationBuilder()
   private readonly port: number
-  readonly logger: Logger
+  readonly logger?: Logger
 
-  constructor({ port, logger }: { port: number; logger: Logger }) {
+  constructor({ port, logger }: { port: number; logger?: Logger }) {
     super()
     this.port = port
     this.logger = logger
@@ -23,7 +24,9 @@ export abstract class KoaApplication extends Koa {
     await this.init()
 
     this.initControllers(ioc)
-    this.listen(this.port, () => this.logger.info(`Server is starting on port ${this.port}`))
+    this.listen(this.port, () => {
+      this.logger ? this.logger.info(`Server is starting on port ${this.port}`) : {}
+    })
   }
 
   private initControllers(ioc: ModuleFactory): void {
