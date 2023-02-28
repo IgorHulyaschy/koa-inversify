@@ -151,7 +151,8 @@ export class SomeDomainWebController {
   deps: {
     init(container) {
       container.bind(SomeDomainService).toSelf().inSingletonScope()
-    }
+    },
+    webControllers: [SomeDomainWebController]
   }
 })
 export class SomeDomainModule {}
