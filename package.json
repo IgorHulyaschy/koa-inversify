@@ -1,6 +1,6 @@
 {
   "name": "koa-inversify",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "Decorators for http and module system like in nest",
   "main": "build/index.js",
   "scripts": {
@@ -11,7 +11,11 @@
     "type": "git",
     "url": "https://github.com/IgorHulyaschy/koa-inversify"
   },
-  "keywords": [],
+  "homepage": "https://github.com/IgorHulyaschy/koa-inversify#readme",
+  "keywords": [
+    "inversify",
+    "koa"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {

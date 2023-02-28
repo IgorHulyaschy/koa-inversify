@@ -60,6 +60,9 @@ export class App extends KoaApplication {
 
   async init(): Promise<void> {
     // add here any middlewares you need (koa-body, koa-cors)
+    // maybe some connect to db
+    // this.use(koa-cors)
+    // this.use(koa-body)
   }
 }
 ```
@@ -151,7 +154,8 @@ export class SomeDomainWebController {
   deps: {
     init(container) {
       container.bind(SomeDomainService).toSelf().inSingletonScope()
-    }
+    },
+    webControllers: [SomeDomainWebController]
   }
 })
 export class SomeDomainModule {}
