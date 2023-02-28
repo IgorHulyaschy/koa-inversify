@@ -5,10 +5,10 @@ import { Logger } from './interfaces';
 export declare abstract class KoaApplication extends Koa {
     private readonly applicationBuilder;
     private readonly port;
-    readonly logger: Logger;
+    readonly logger?: Logger;
     constructor({ port, logger }: {
         port: number;
-        logger: Logger;
+        logger?: Logger;
     });
     abstract init(): Promise<void>;
     start(ioc: ModuleFactory): Promise<void>;

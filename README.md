@@ -6,10 +6,6 @@ Koa requires __node v12.17.0__ or higher for ES2015 and async function support.
 npm i koa-inversify
 ```
 
-You also need to install
-```
-npm i inversify
-```
 ---
 ## [Full example of project](https://github.com/IgorHulyaschy/koa-inversify/tree/main/lib/example/src) 
 
@@ -18,14 +14,19 @@ npm i inversify
 ## Hello koa-inversify
 
 ## Features:
-1. [How to init project](https://github.com/IgorHulyaschy/koa-inversify#init-project)
+1. [CLI](https://github.com/IgorHulyaschy/koa-inversify#cli)
 2. [WebController](https://github.com/IgorHulyaschy/koa-inversify#webcontrollers)
 3. [Middlewares](https://github.com/IgorHulyaschy/koa-inversify#middlewares)
-5. [Domain logic](https://github.com/IgorHulyaschy/koa-inversify#domain-logic)
-4. [DomainModules like in nestjs](https://github.com/IgorHulyaschy/koa-inversify#domain-modules)
+4. [Modules](https://github.com/IgorHulyaschy/koa-inversify#domain-modules)
+5. [Services](https://github.com/IgorHulyaschy/koa-inversify#domain-logic)
 
+## CLI
 
-### Structure of project
+```
+npx koa-inversify
+```
+
+### Structure of project 
 
 ```
 repo
@@ -39,8 +40,8 @@ repo
 ---SomeDomainWebController.ts
 ```
 
-### Init project
 
+## Init
 `src/App.ts`
 
 ```js
